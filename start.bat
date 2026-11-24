@@ -27,7 +27,7 @@ echo.
 set "RC=%ERRORLEVEL%"
 
 echo.
-if not "%RC%"=="0" echo IP Probe exited with code %RC%.
+if not "%RC%"=="0" if not "%RC%"=="-1" if not "%RC%"=="130" echo IP Probe exited with code %RC%.
 echo Press any key to close this window.
 pause >nul
 exit /b %RC%

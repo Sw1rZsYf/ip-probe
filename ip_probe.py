@@ -38,7 +38,7 @@ from typing import Any, Dict, Iterable, List, Optional, Tuple
 
 APP_NAME = "ip-probe"
 APP_TITLE = "IP PROBE"
-VERSION = "1.0.0"
+VERSION = "1.0.1"
 DEFAULT_TIMEOUT = 12.0
 MAX_BODY = 2 * 1024 * 1024
 USER_AGENT = (
