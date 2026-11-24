@@ -2,7 +2,8 @@
 
 一个**单文件、零第三方依赖**的本地 IP 体检工具，终端报告 + 本地 Web 面板，定位类似 ping0.cc。
 
-> GitHub: <https://github.com/Sw1rZsYf/ip-probe>
+> GitHub: <https://github.com/Sw1rZsYf/ip-probe>  
+> Release: <https://github.com/Sw1rZsYf/ip-probe/releases/tag/v1.0.0>
 
 支持检测当前公网 IPv4 / IPv6 出口，也可以查询任意 IP：
 
